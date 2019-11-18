@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Web PLC Simulation</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+	<script type="text/javascript" src="js/timer.js"></script>
+ 	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+    <nav id="topnav">
+
+        <ul class="menu">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="diagnostics.html">Diagnostics</a></li>
+            <li><a href="control.html">Control</a></li>
+            <li><a href="charts.html">Charts</a></li>
+        </ul>
+
+    </nav>
+    
+    <main>
+        
+        <article>
+            
+			<section class="categories">
+			         
+                    <div class="row">
+                        
+				    <div class="col-sm-8 col-md-12">	 
+                    <div class="main">	
+					<header>
+					
+						<h1>Control</h1>
+						<p> </p>
+						
+					</header>
+				    </div>
+                    </div> 
+        
+                        
+                    <div class="col-sm-8 col-md-4">	 
+                    <div class="start">
+					              
+					   <a href="#" class="start a" onclick=start();><i class="icon-play" ></i><br /><br />START</a>
+                        
+					</div>                        
+                    </div> 
+                
+				    <div class="col-sm-8 col-md-4">	
+					<div class="stop">
+					
+						<a href="#" class="stop a" onclick=stop();><i class="icon-stop" ></i><br /><br />STOP</a>
+					
+					</div>                        
+                    </div> 
+                        
+                    <div class="col-sm-8 col-md-4">	
+					<div class="block">
+					
+						<a href="#" class="block a"><i class="icon-block"onclick=block();></i><br /><br />BLOCK</a>
+					
+					</div>
+                    </div> 
+                    
+                        
+                    </div>
+
+                    <script>
+                      function start(){
+                        var divData=document.getElementById("status");
+                        document.getElementById("img").src="img/start.png";
+                        divData.innerHTML="Started";
+                        document.getElementById("date").innerHTML = timer();     
+                      }
+                      function stop(){    
+                        var divData=document.getElementById("status");
+                        document.getElementById("img").src="img/stop.png";
+                        divData.innerHTML="Stopped";
+                        document.getElementById("date").innerHTML = timer();     
+                      }
+                      function block(){    
+                        var divData=document.getElementById("status");
+                        document.getElementById("img").src="img/block.png";
+                        divData.innerHTML="Blocked";
+                        document.getElementById("date").innerHTML = timer();                        
+                      }
+
+                    </script> 
+				
+			</section>
+            
+			<section id="newest">
+				
+				<div class="entries">
+				    <div class="col-sm-8 col-md-12">	 
+                    <div class="main">	
+					<header>
+					
+						<h1>Drive Status</h1>
+						<p> </p>
+						
+					</header>	
+				    </div>
+                    </div> 
+                    
+                    <div class="row">
+                    <div class="col-sm-8 col-md-12">
+					<div class="entry">
+					
+                        <div class="col-sm-12 col-md-12">	
+						<div >
+							<img src="img/stop.png" id="img" alt="Drive Status">
+						</div>
+						</div>
+                        
+                        <div class="col-sm-12 col-md-12">
+						<div class="entrytxt">
+                            <h2> </h2>	
+                            <p id=status>Status</p>
+                            <p id=date>Status data</p>
+                            <div id="date"></div> 
+                        </div>
+                                                       
+						</div>
+					
+					</div>
+                    </div>
+                        
+                    </div>
+                								
+				</div>
+				
+			</section>
+        </article>
+    </main>
+    
+    <footer>
+        
+		<div class="info">
+            Created by <a href="https://github.com/lepiotr" target="_blank">lepiotr</a>.
+		</div>
+        
+	</footer>
+    
+    <script src="bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
+    

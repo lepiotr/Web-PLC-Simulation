@@ -1,0 +1,348 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+#topnav
+{
+	background-color: #1b61a2;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a2b42;
+}
+
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding: 0;
+    
+}
+
+.charts
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+    
+}
+
+.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;    
+}
+
+h1
+{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.category
+{
+	display: inline-block;
+	margin-top: 10px;    
+}
+
+.category a
+{
+	opacity: 0.9;
+}
+
+.category a:hover
+{
+	opacity: 1;
+}
+
+
+.start
+{
+	display: inline-block;
+	margin-top: 10px;
+    padding: 5px;
+	text-decoration: none;
+}
+
+.start:hover
+{
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #03fc1c;
+}
+
+.start a
+{
+	opacity: 0.9;    
+    color: #ffffff;
+    display: block;
+}
+
+.start a:hover
+{
+	opacity: 1;
+	text-decoration: none;
+    display: block;
+}
+
+
+.stop
+{
+	display: inline-block;
+	margin-top: 10px;
+    padding: 5px;
+	text-decoration: none;
+}
+
+.stop:hover
+{
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #fc0303;
+}
+
+.stop a
+{
+	opacity: 0.9; 
+    color: #ffffff;    
+    display: block;
+}
+
+.stop a:hover
+{
+	opacity: 1;
+	text-decoration: none;
+    display: block;
+}
+
+
+.block
+{
+	display: inline-block;
+	margin-top: 10px;
+    padding: 5px;
+	text-decoration: none;
+}
+
+.block:hover
+{
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #fcba03;
+}
+
+.block a
+{
+	opacity: 0.9; 
+    color: #ffffff;    
+    display: block;
+}
+
+.block a:hover
+{
+	opacity: 1;
+	text-decoration: none;
+    display: block;
+}
+
+
+
+
+.category_main
+{
+	/*display: inline-block;*/
+	margin-top: 10px;
+    padding: 40px;
+	text-decoration: none;
+    text-align: center;
+    min-width: 320px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.category_main:hover
+{
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #1b61a2;
+}
+
+.category_main a
+{
+	opacity: 0.9; 
+    color: #ffffff;    
+    display: block;
+}
+
+.category_main a:hover
+{
+	opacity: 1;
+	text-decoration: none;
+    display: block;
+}
+
+.category_main2
+{
+	/*display: inline-block;*/
+	margin-top: 10px;
+    padding: 40px;
+	text-decoration: none;
+    text-align: center;
+    min-width: 320px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.category_main2:hover
+{
+	/*display: inline-block;*/
+	margin-top: 10px;
+	background-color: #1b61a2;
+}
+
+.category_main2 a
+{
+	opacity: 0.9; 
+    color: #ffffff;    
+    display: block;
+}
+
+.category_main2 a:hover
+{
+	opacity: 1;
+	text-decoration: none;
+    display: block;
+}
+
+
+
+figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+	text-decoration: none;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #191d21;
+}
+
+.entry
+{
+	background-color: #222930;
+	padding: 10px;
+	/*text-align: justify;*/
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 100%;
+	font-size: 15px;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+.info
+{
+	margin-left: auto;
+	margin-right: auto;  
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;    
+	background-color: #191f21;
+}
+
+.info a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.info a:hover
+{
+	color: #0a2b42;
+}
+
